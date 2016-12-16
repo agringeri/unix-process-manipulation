@@ -15,5 +15,3 @@ For example,
 ==> ./doit sleep 3
 	will carry out the command sleep with an argument of 3
 
-Additional comments:
-	Only part 1 of this assignment has been fully completed, partly due to time constraints.
