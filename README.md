@@ -1,5 +1,7 @@
 Anthony Gringeri
+
 Project 1
+
 CS3013, Operating Systems, Professor Craig Wills
 
 This project introduces the process manipulation facilites in the Unix/Linux Operating System.
