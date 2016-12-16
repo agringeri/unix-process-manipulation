@@ -1,0 +1,64 @@
+Script started on Fri 02 Sep 2016 03:31:50 AM EDT
+bash-3.2$ ./doit cat e /etc/motd
+
+CCC Station - Authorized Use Only
+
+Mail all questions or problems to the address helpdesk@wpi.edu or use the
+help command to view the CCC Helpdesk web at http://www.wpi.edu/+CCC/Help.
+
+Please use the aup command to view the Acceptable Use Policy of the WPI
+network.
+
+This station is for interactive use.
+
+
+Process exited.
+--------------------------
+    Process Statistics
+--------------------------
+    CPU Clock Time:                       8
+    Wall Clock Time (ms):                 2
+    Involuntary Context Switches:         3
+    Voluntary Context Switches:           2
+    Major Page Faults:                    0
+    Minor Page Faults:                    149
+    Maximum Resident Set Size Used (kB):  348
+bash-3.2$ /doit    .doit      ./doit sleep 5
+
+Process exited.
+--------------------------
+    Process Statistics
+--------------------------
+    CPU Clock Time:                       0
+    Wall Clock Time (ms):                 5008
+    Involuntary Context Switches:         3
+    Voluntary Context Switches:           1
+    Major Page Faults:                    0
+    Minor Page Faults:                    148
+    Maximum Resident Set Size Used (kB):  348
+bash-3.2$ ./doit cat     ls-    -l
+total 204
+-rwxrwx--x 1 acgringeri acgringeri 9789 Sep  2 03:30 doit
+-rwxrwx--x 1 acgringeri acgringeri  796 Sep  2 03:30 doit.c
+-rwxrwx--x 1 acgringeri acgringeri   92 Sep  2 03:30 doit.h
+-rwxrwx--x 1 acgringeri acgringeri  112 Sep  2 03:30 makefile
+-rwxrwx--x 1 acgringeri acgringeri 2670 Sep  2 03:30 process_data.c
+-rwxrwx--x 1 acgringeri acgringeri  772 Sep  2 03:30 process_data.h
+-rwxrwx--x 1 acgringeri acgringeri  732 Sep  2 03:30 readme
+-rwxrwx--x 1 acgringeri acgringeri    0 Sep  2 03:31 test_cases.scr
+
+Process exited.
+--------------------------
+    Process Statistics
+--------------------------
+    CPU Clock Time:                       0
+    Wall Clock Time (ms):                 6
+    Involuntary Context Switches:         4
+    Voluntary Context Switches:           1
+    Major Page Faults:                    0
+    Minor Page Faults:                    149
+    Maximum Resident Set Size Used (kB):  352
+bash-3.2$ exit
+exit
+
+Script done on Fri 02 Sep 2016 03:32:59 AM EDT
